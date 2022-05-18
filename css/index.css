@@ -1,0 +1,234 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  color: #272a32;
+}
+
+.none {
+  display: none;
+}
+
+header {
+  padding: 16px;
+}
+
+#top-nav {
+  display: none;
+}
+
+#nav {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/icons/nav-icon.svg);
+  box-sizing: content-box;
+  background-size: 100% 100%;
+}
+
+#nav-logo {
+  display: none;
+}
+
+#nav-links {
+  display: none;
+}
+
+#greeting-text {
+  color: #ec5242;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  margin-top: 0px;
+  color: #ec5242;
+  font-weight: 900;
+text-transform: uppercase;}
+
+#event-info {
+  border: 2px solid white;
+  padding: 8px;
+}
+
+#event-time {
+  font-size: large;
+  margin-bottom: 0;
+}
+
+#event-location {
+  margin-top: 0;
+
+  font-size: small;
+margin-bottom: 40px;}
+
+#main-program {
+  display: flex;
+  background-color: #272a31;
+  flex-direction: column;
+  color: white;
+}
+
+#main-program > a:link,
+#main-program > a:visited {
+  background-color: #ec5242;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  margin-left: 8px;
+  align-self: center;
+  margin-right: 8px;
+  margin-bottom: 28px;
+}
+
+#main-program > a:hover,
+#main-program > a:active {
+  background-color: red;
+}
+
+#main-program > h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#main-program > hr {
+  width: 40px;
+  border: 1px solid #ec5242;
+}
+
+#program-list {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: none;
+}
+
+#program-list > li {
+  display: flex;
+  background-color: #3c3f46;
+  padding: 16px;
+  gap: 12px;
+  align-items: center;
+  list-style-type: none;
+}
+
+#program-list > li > img {
+  width: 47px;
+  height: 47px;
+}
+
+#program-list > li > h3 {
+  min-width: 90px;
+  color: #ec5242;
+  margin: 0;
+}
+
+#program-list > li > p {
+  margin: 0;
+}
+
+#featured-speakers > h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#featured-speakers > hr {
+  width: 40px;
+  border: 1px solid #ec5242;
+}
+
+#featured-speakers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 16px;
+}
+
+#featured-speakers-list > li {
+  display: flex;
+  flex-direction: row;
+}
+
+#featured-speakers-list > li > img {
+  width: 120px;
+  height: 120px;
+}
+
+#featured-speakers-list > li > div {
+  padding-left: 8px;
+}
+
+#featured-speakers-list > li > div > h3 {
+  margin: 4px;
+}
+
+#featured-speakers-list > li > div > h4 {
+  color: #ec5242;
+  font-size: small;
+  margin: 4px;
+}
+
+#featured-speakers-list > li > div > p {
+  margin: 4px;
+  font-size: small;
+}
+
+#featured-speakers-list > li > div > hr {
+  margin-left: 4px;
+  width: 40px;
+  border: 1px solid lightgrey;
+}
+
+
+#partner {
+    display: flex;
+    flex-direction: column;
+    background-color: #414246;
+    color: white;
+}
+
+#partner > h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#partner > hr {
+  width: 40px;
+  border: 1px solid #ec5242;
+}
+
+#partner-list {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items:center;
+  gap: 16px;
+  justify-content:center;
+  margin: 16px 16px 20px 16px; 
+}
+
+#partner-list > li {
+  height: 
+}
+
+footer {
+    display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  gap: 16px;
+  justify-content:center;
+    margin: 16px;
+    gap
+}
+
+footer > img {
+  width: 180px;
+}
+
+#footer-copyright-info > p {
+  margin: 0;
+}
