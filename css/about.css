@@ -1,0 +1,190 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  color: #272a32;
+}
+
+hr {
+  width: 40px;
+  border: 1px solid #ec5242;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+#top-nav {
+  display: none;
+}
+
+#nav {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/icons/nav-icon.svg);
+  box-sizing: content-box;
+  background-size: 100% 100%;
+}
+
+#nav-logo {
+  display: none;
+}
+
+#nav-links {
+  display: none;
+}
+
+h1 {
+  margin-top: 50px;
+  color: #ec5242;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#event-info {
+  border: 2px solid white;
+  padding: 8px;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+footer > img {
+  width: 180px;
+}
+
+.extra-info {
+  display: none;
+}
+
+#summit-logo {
+  text-align: center;
+  background-color: white;
+  padding: 32px;
+}
+
+#summit-logo > h2 {
+  margin: 0;
+}
+
+#summit-logo > img {
+  padding: 28px;
+  border: 1px solid lightgray;
+}
+
+#past-summits {
+  text-align: center;
+  background-color: white;
+  padding: 32px;
+  border-top: 1px solid lightgray;
+}
+
+#past-summits > h2 {
+  margin: 0;
+}
+
+#past-summits-list {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+}
+
+#footer-copyright-info > p {
+  margin: 0;
+}
+
+#past-summits-list > li {
+  aspect-ratio: 10 / 5;
+  color: white;
+}
+
+#past-summits-list > li:nth-child(1) {
+  background-image: url(../images/background/2013-summit.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#past-summits-list > li > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255 40 0 / 57%);
+}
+
+#past-summits-list > li > div > h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+#past-summits-list > li > div > p {
+  margin: 10px 10px 0 10px;
+}
+
+#past-summits-list > li:nth-child(2) {
+  background-image: url(../images/background/2011-summit.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#partner {
+  display: flex;
+  flex-direction: column;
+  background-color: #414246;
+  color: white;
+}
+
+#partner > h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#partner > hr {
+  width: 40px;
+  border: 1px solid #ec5242;
+}
+
+#featured-speakers > h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#featured-speakers > hr {
+  width: 40px;
+  border: 1px solid #ec5242;
+}
+
+#partner-list {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin: 16px 16px 20px 16px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  text-align: center;
+  margin: 16px;
+}
