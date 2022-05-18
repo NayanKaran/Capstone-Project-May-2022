@@ -5,10 +5,6 @@ body {
   color: #272a32;
 }
 
-.none {
-  display: none;
-}
-
 header {
   padding: 16px;
 }
@@ -191,7 +187,8 @@ footer {
   align-items: center;
   gap: 16px;
   justify-content: center;
-  text-align: center;margin: 16px;
+  text-align: center;
+  margin: 16px;
 }
 
 #featured-speakers-list > li {
