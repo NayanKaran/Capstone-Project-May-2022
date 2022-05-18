@@ -191,7 +191,7 @@ footer {
   align-items: center;
   gap: 16px;
   justify-content: center;
-  margin: 16px;
+  text-align: center;margin: 16px;
 }
 
 #featured-speakers-list > li {
