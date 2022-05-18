@@ -36,14 +36,15 @@ header {
 #greeting-text {
   color: #ec5242;
   margin-top: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 h1 {
-  margin-top: 0px;
+  margin-top: 0;
   color: #ec5242;
   font-weight: 900;
-text-transform: uppercase;}
+  text-transform: uppercase;
+}
 
 #event-info {
   border: 2px solid white;
@@ -53,13 +54,14 @@ text-transform: uppercase;}
 #event-time {
   font-size: large;
   margin-bottom: 0;
-font-weight: 700;}
+  font-weight: 700;
+}
 
 #event-location {
   margin-top: 0;
-
   font-size: small;
-margin-bottom: 40px;}
+  margin-bottom: 40px;
+}
 
 #main-program {
   display: flex;
@@ -115,6 +117,14 @@ margin-bottom: 40px;}
   list-style-type: none;
 }
 
+footer > img {
+  width: 180px;
+}
+
+#footer-copyright-info > p {
+  margin: 0;
+}
+
 #program-list > li > img {
   width: 47px;
   height: 47px;
@@ -128,6 +138,23 @@ margin-bottom: 40px;}
 
 #program-list > li > p {
   margin: 0;
+}
+
+#partner {
+  display: flex;
+  flex-direction: column;
+  background-color: #414246;
+  color: white;
+}
+
+#partner > h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#partner > hr {
+  width: 40px;
+  border: 1px solid #ec5242;
 }
 
 #featured-speakers > h2 {
@@ -145,6 +172,26 @@ margin-bottom: 40px;}
   flex-direction: column;
   gap: 48px;
   padding: 16px;
+}
+
+#partner-list {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin: 16px 16px 20px 16px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin: 16px;
 }
 
 #featured-speakers-list > li {
@@ -180,55 +227,4 @@ margin-bottom: 40px;}
   margin-left: 4px;
   width: 40px;
   border: 1px solid lightgrey;
-}
-
-
-#partner {
-    display: flex;
-    flex-direction: column;
-    background-color: #414246;
-    color: white;
-}
-
-#partner > h2 {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-#partner > hr {
-  width: 40px;
-  border: 1px solid #ec5242;
-}
-
-#partner-list {
-  padding: 0;
-  display: flex;
-  list-style-type: none;
-  flex-wrap: wrap;
-  align-items:center;
-  gap: 16px;
-  justify-content:center;
-  margin: 16px 16px 20px 16px; 
-}
-
-#partner-list > li {
-  height: 
-}
-
-footer {
-    display: flex;
-  flex-wrap: wrap;
-  align-items:center;
-  gap: 16px;
-  justify-content:center;
-    margin: 16px;
-    gap
-}
-
-footer > img {
-  width: 180px;
-}
-
-#footer-copyright-info > p {
-  margin: 0;
 }
