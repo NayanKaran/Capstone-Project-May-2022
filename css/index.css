@@ -53,7 +53,7 @@ text-transform: uppercase;}
 #event-time {
   font-size: large;
   margin-bottom: 0;
-}
+font-weight: 700;}
 
 #event-location {
   margin-top: 0;
