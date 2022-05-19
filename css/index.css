@@ -315,7 +315,7 @@ footer {
 
   #nav {
     width: 100%;
-    background-image: url(http://127.0.0.1:5500/images/icons/nav-icon.svg);
+    background-image: url(../images/icons/nav-icon.svg);
     box-sizing: border-box;
     background-color: white;
     background-size: 0%;
@@ -414,7 +414,7 @@ footer {
   }
 
   footer > div:nth-child(1) {
-    background-image: url(http://127.0.0.1:5500/images/icons/desktop-cc-icon.png);
+    background-image: url(../images/icons/desktop-cc-icon.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
