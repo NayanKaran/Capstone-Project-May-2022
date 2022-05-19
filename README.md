@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Open the index.html file.
 
-## Authors
+## Author
 
 👤 **Debabrata Mandal (Nayan Karan)**
 

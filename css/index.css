@@ -96,6 +96,7 @@ header {
   background-image: url(../images/icons/nav-icon.svg);
   box-sizing: content-box;
   background-size: 100% 100%;
+  cursor: pointer;
 }
 
 #nav-logo {
@@ -122,6 +123,7 @@ h1 {
 #event-info {
   border: 2px solid white;
   padding: 8px;
+  background-color: #f4f4f4;
 }
 
 #event-time {
@@ -330,6 +332,7 @@ footer {
     height: 62px;
     padding: 8px calc((100% - 688px) / 2);
     justify-content: space-between;
+    cursor: auto;
   }
 
   #nav-logo {
@@ -427,7 +430,7 @@ footer {
   }
 
   #footer-copyright-info {
-    align-self: flex-start;
+    align-self: center;
     font-size: small;
   }
 
@@ -543,6 +546,7 @@ footer {
     height: 62px;
     padding: 8px calc((100% - 1024px) / 2);
     justify-content: space-between;
+    cursor: auto;
   }
 
   #nav-logo {
@@ -641,7 +645,7 @@ footer {
   }
 
   #footer-copyright-info {
-    align-self: flex-start;
+    align-self: center;
     font-size: small;
   }
 
