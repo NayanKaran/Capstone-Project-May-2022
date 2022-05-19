@@ -1,6 +1,6 @@
 # Capstone Project May 2022
 
-> This project is to demonstrate web-development skills by recreating the design provided at https://www.behance.net/gallery/29845175/CC-Global-Summit-2015, for a frictional Open Source Glomal Summit.
+> This project is to demonstrate web-development skills by recreating the design provided at https://www.behance.net/gallery/29845175/CC-Global-Summit-2015, for a frictional Open Source Global Summit.
 
 
 ## Built With
