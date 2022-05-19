@@ -11,15 +11,35 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.css" />
 </head>
 
 <body>
+
+    <div id="mobile-menu">
+        <a href="#" class="close"></a>
+        <nav id="mobile-nav">
+            <a href="./index.html"><img id="mobile-nav-logo" src="./images/icons/cc-global-summit-logo.png" alt="logo" /></a>
+            <ul id="mobile-nav-links">
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Sponsor</a></li>
+                <li><a href="#">News</a></li>
+                <li id="mobile-nav-campaign-link"><a href="#">OS Campaign</a></li>
+            </ul>
+        </nav>
+    </div>
     <header>
+
         <nav id="top-nav">
             <ul id="top-nav-social-links">
-                <li id="facebook"></li>
-                <li id="twitter"></li>
+                <li id="facebook">
+                    <img src="./images/icons/facebook-icon.png" alt="facebook icon" />
+                </li>
+                <li id="twitter">
+                    <img src="./images/icons/twitter-icon.png" alt="twitter icon" />
+                </li>
             </ul>
             <ul id="top-nav-page-links">
                 <li>English</li>
@@ -28,141 +48,89 @@
             </ul>
         </nav>
         <nav id="nav">
-            <img id="nav-logo" src="./images/icons/nav-logo.png" alt="logo" />
+            <a href="./index.html"><img id="nav-logo" src="./images/icons/cc-global-summit-logo.png" alt="logo" /></a>
             <ul id="nav-links">
-                <li>About</li>
-                <li>Program</li>
-                <li>Join</li>
-                <li>Sponsor</li>
-                <li>News</li>
-                <li id="nav-campaign-link">CC Campaign</li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Sponsor</a></li>
+                <li><a href="#">News</a></li>
+                <li id="nav-campaign-link"><a href="#">OS Campaign</a></li>
             </ul>
         </nav>
-        <p id="greeting-text">"Hello! Sharing World"</p>
-        <h1>Creative Commons Global Summit 2015</h1>
-        <p id="event-info">A joyful celebration believing in the value of openness and sharing, creating a positive
-            change with people from over 80 countries is taking place in October, in Korea.</p>
-        <p id="event-time">2015.10.15(THU) – 16(FRI)</p>
-        <p id="event-location">@ National Museum of Korea, Art Center Nabi and more</p>
+        <div id="header-main-content">
+            <p id="greeting-text">"Hello! Sharing World"</p>
+            <h1>Open Source Global Summit 2015</h1>
+            <p id="event-info">
+                A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.
+            </p>
+            <p id="event-time">2015.10.15(THU) – 16(FRI)</p>
+            <p id="event-location">
+                @ National Museum of Korea, Art Center Nabi and more
+            </p>
+        </div>
     </header>
     <section id="main-program">
         <h2>Main Program</h2>
-        <hr>
+        <hr />
         <ul id="program-list">
             <li>
-                <img src="./images/icons/lecture-icon.png" alt="lecture icon">
+                <img src="./images/icons/lecture-icon.png" alt="lecture icon" />
                 <h3>Lecture</h3>
-                <p>Listen to the speakers from various countries about the messeges of sharing and opening</p>
+                <p>
+                    Listen to the speakers from various countries about the messeges of sharing and opening
+                </p>
             </li>
             <li>
-                <img src="./images/icons/cc-exhibition.png" alt="CC Exhibition icon">
-                <h3>CC Exhibition</h3>
-                <p>Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
+                <img src="./images/icons/cc-exhibition.png" alt="OS Exhibition icon" />
+                <h3>OS Exhibition</h3>
+                <p>
+                    Appreciate various creations applying OS license of artists, organized from Art Center Nabi.
+                </p>
             </li>
             <li>
-                <img src="./images/icons/forum_icon.png" alt="Forum icon">
+                <img src="./images/icons/forum_icon.png" alt="Forum icon" />
                 <h3>Forum</h3>
-                <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+                <p>
+                    Have the time to share your thoughts and opinions with experts for each topic.
+                </p>
             </li>
             <li>
-                <img src="./images/icons/workshop-icon.png" alt="Workshop icon">
+                <img src="./images/icons/workshop-icon.png" alt="Workshop icon" />
                 <h3>Workshop</h3>
-                <p>Try creating your own work using open source license rather than just watching at it.</p>
+                <p>
+                    Try creating your own work using open source license rather than just watching at it.
+                </p>
             </li>
             <li>
-                <img src="./images/icons/cc-ignite-icon.png" alt="CC Ignite icon">
-                <h3>CC Ignite</h3>
-                <p>Get opportunities to network with CC affiliates around the world, also after the summit.</p>
+                <img src="./images/icons/cc-ignite-icon.png" alt="OS Ignite icon" />
+                <h3>OS Ignite</h3>
+                <p>
+                    Get opportunities to network with OS affiliates around the world, also after the summit.
+                </p>
             </li>
         </ul>
         <a href="#" id="main-program-know-more-link">See The Whole Program</a>
     </section>
-    <section id="featured-speakers">
-        <h2>Featured Speakers</h2>
-        <hr>
-        <ul id="featured-speakers-list">
-            <li>
-                <img src="./images/profile-pic-yochai.png" alt="display picture">
-                <div>
-                    <h3>Yochai Benkler</h3>
-                    <h4>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h4>
-                    <hr>
-                    <p>Benkler studies commons-based peer production, and published his seminal book The Wealth of
-                        Networks in 2006.</p>
-                </div>
-
-            </li>
-            <li>
-                <img src="./images/profile-pic-kilnam.png" alt="display picture">
-                <div>
-                    <h3>Kilnam Chon</h3>
-                    <h4 class="none"></h4>
-                    <hr>
-                    <p>Kiinam Chon helped bring the Internet to Asia and is an outspoken advocate for the open web and
-                        digital commons. In 2012, he was inducted into the inaugural dass of the Internet Society's
-                        (ISOO Internet Hall of Fame.</p>
-                </div>
-            </li>
-            <li>
-                <img src="./images/profile-pic-sohyeong.png" alt="display picture">
-                <div>
-                    <h3>SohYeong Noh</h3>
-                    <h4>Director of Art Centre Nabi and a board member of CC Korea</h4>
-                    <hr>
-                    <p>Julia Leda President of Young Pirates of Europe As the main venue for new media art production in
-                        Korea,Nabi promotes cross-disciplinary collaboration and understanding among science technology,
-                        humanities, and the arts.</p>
-                </div>
-            </li>
-            <li>
-                <img src="./images/profile-pic-julia.png" alt="display picture">
-                <div>
-                    <h3>Julia Leda</h3>
-                    <h4>President of Young Pirates of Europe</h4>
-                    <hr>
-                    <p>European ingetration, political democracy and participation of youth through online as her major
-                        condern Reda's report outlining potential changes to EU copyright law was approved by the
-                        Parliament in July.</p>
-                </div>
-            </li>
-            <li>
-                <img src="./images/profile-pic-lila.png" alt="display picture">
-                <div>
-                    <h3>Lila Tretikov</h3>
-                    <h4>Executive Director of the Wikimedia Foundation</h4>
-                    <hr>
-                    <p>Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization
-                        that operates Wikipedia Wikipedia is freely available in 290 languages and used by nearly half a
-                        bilion people around the world every month.</p>
-                </div>
-            </li>
-            <li>
-                <img src="./images/profile-pic-ryan.png" alt="display picture">
-                <div>
-                    <h3>Ryan Merkley</h3>
-                    <h4>CEO of Creative Commons, ex COO of the Mozilla Foundation</h4>
-                    <hr>
-                    <p>Ryan had been leading open-source projects at the Mozilla Foundation such as the open source
-                        movement.</p>
-                </div>
-            </li>
-        </ul>
-    </section>
     <section id="partner">
         <h2>Partner</h2>
-        <hr>
+        <hr />
         <ul id="partner-list">
-            <li><img src="./images/icons/mozilla-icon.png" alt="mozilla icon"></li>
-            <li><img src="./images/icons/google-icon.png" alt="google icon"></li>
-            <li><img src="./images/icons/naver.png" alt="naver icon"></li>
-            <li><img src="./images/icons/daumkakao.png" alt="daumkakao icon"></li>
-            <li><img src="./images/icons/airbnb-icon.png" alt="airbnb icon"></li>
+            <li>
+                <img src="./images/icons/mozilla-icon.png" alt="mozilla icon" />
+            </li>
+            <li><img src="./images/icons/google-icon.png" alt="google icon" /></li>
+            <li><img src="./images/icons/naver.png" alt="naver icon" /></li>
+            <li><img src="./images/icons/daumkakao.png" alt="daumkakao icon" /></li>
+            <li><img src="./images/icons/airbnb-icon.png" alt="airbnb icon" /></li>
         </ul>
     </section>
     <footer>
-        <img src="./images/icons/footer-logo.png" alt="footer-logo">
+        <div>
+            <img src="./images/icons/footer-logo.png" alt="footer-logo" />
+        </div>
         <div id="footer-copyright-info">
-            <p>2015 Creative Commons Korea, Some Rights Reserved</p>
+            <p>2015 Open Source America, Some Rights Reserved</p>
         </div>
     </footer>
     <script src="./js/index.js"></script>
