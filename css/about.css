@@ -132,7 +132,7 @@ h1 {
   margin-left: 16px;
   margin-top: 16px;
   margin-bottom: 0;
-  max-width: 715px;
+  max-width: 1024px;
   box-sizing: border-box;
   align-self: center;
 }
@@ -152,7 +152,7 @@ h1 {
 }
 
 #summit-logo > img {
-  padding: 28px;
+  padding: 64px;
   border: 1px solid lightgray;
 }
 
@@ -383,6 +383,168 @@ footer {
 
   #summit-logo > p {
     max-width: 637px;
+    text-align: center;
+    margin: 32px auto;
+    line-height: 25px;
+  }
+
+  #past-summits {
+    padding: 64px 32px;
+  }
+
+  #past-summits-list {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  #past-summits-list > li {
+    height: 171px;
+    aspect-ratio: 10 / 5;
+    color: white;
+  }
+
+  footer {
+    background: #2b2b2b;
+    color: white;
+    padding: 64px calc((100% - 523px) / 2);
+    gap: 32px;
+    margin: 0;
+  }
+
+  footer > div:nth-child(1) {
+    background-image: url(../images/icons/desktop-cc-icon.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  #footer-copyright-info {
+    align-self: flex-start;
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .extra-info {
+    display: contents;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .active {
+    color: #ec5242;
+  }
+
+  header > h1 {
+    max-width: 1024px;
+    align-self: center;
+    font-size: 73px;
+  }
+
+  footer > div:nth-child(1) > img {
+    opacity: 0;
+  }
+
+  #nav {
+    width: 100%;
+    background-image: url(../images/icons/nav-icon.svg);
+    box-sizing: border-box;
+    background-color: white;
+    background-size: 0%;
+    display: flex;
+    height: 62px;
+    padding: 8px calc((100% - 1024px) / 2);
+    justify-content: space-between;
+  }
+
+  #nav-logo {
+    display: block;
+    height: 100%;
+    aspect-ratio: 196 / 85;
+  }
+
+  #nav-links {
+    display: flex;
+    list-style-type: none;
+    font-size: medium;
+    font-weight: 600;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  #top-nav {
+    display: flex;
+    background-color: #272a31;
+    height: 28px;
+    justify-content: flex-end;
+    padding: 4px;
+    padding-right: calc((100% - 1024px) / 2);
+    box-sizing: border-box;
+    gap: 24px;
+  }
+
+  #top-nav-social-links {
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  #facebook {
+    box-sizing: border-box;
+  }
+
+  #facebook > img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #twitter > img {
+    height: 20px;
+  }
+
+  #top-nav-page-links {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    margin: 0;
+    font-size: medium;
+    align-items: center;
+  }
+
+  #nav-campaign-link {
+    border: 2px solid #ec5242;
+    padding: 8px;
+  }
+
+  #event-info {
+    margin-top: 32px;
+  }
+
+  header > p:nth-child(6) {
+    margin-top: 32px;
+    margin-bottom: 8px;
+  }
+
+  header > a {
+    margin-bottom: 64px;
+    color: black;
+    font-weight: 800;
+  }
+
+  #summit-logo {
+    padding: 64px 32px;
+  }
+
+  #summit-logo > p {
+    max-width: 1024px;
     text-align: center;
     margin: 32px auto;
     line-height: 25px;

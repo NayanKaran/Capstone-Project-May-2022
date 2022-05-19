@@ -109,7 +109,8 @@ featuredSpeakerSection.id = 'featured-speakers';
   }
   featuredSpeakerSection.appendChild(featuredSpeakerList);
 }
-document.body.insertBefore(
+
+document.querySelector('body > main').insertBefore(
   featuredSpeakerSection,
   document.getElementById('partner'),
 );
