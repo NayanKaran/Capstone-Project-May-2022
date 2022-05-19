@@ -210,6 +210,10 @@ footer {
     font-size: 42px;
   }
 
+  footer > div:nth-child(1) > img {
+    opacity: 0;
+  }
+
   #nav {
     width: 100%;
     background-image: url(../images/icons/nav-icon.svg);
@@ -330,11 +334,17 @@ footer {
   }
 
   footer {
-    background: #272a32;
+    background: #2b2b2b;
     color: white;
     padding: 64px calc((100% - 523px) / 2);
     gap: 32px;
     margin: 0;
+  }
+
+  footer > div:nth-child(1) {
+    background-image: url(../images/icons/desktop-cc-icon.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
 
   #footer-copyright-info {
